@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.div {
+    background-color: #000;
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    background-color: #fff;
+    height: min-content;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    height: 25%;
+    width: 90%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.connect {
+    padding-top: 15px;
+    display: flex;
+}
+
+.connect h5 {
+    font-weight: 500;
+}
+
+.connect img {
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.image {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.image img {
+    height: 220px;
+    width: 220px;
+    object-fit: contain;
+    object-position: center;
+    margin-top: 5px;
+
+}
+
+.name {
+    background-color: #fff;
+    color: #65615e;
+    height: 100%;
+    width: 70%;
+    padding-left: 100px;
+}
+
+.name h1 {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+.name h3 {
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+
+.summary {
+    height: 150px;
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.heads {
+    background-color: #65615e;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.heads h4 {
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.summary-contents {
+    background-color: #fff;
+    color: #65615e;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.summary-contents p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.academic {
+    background-color: #fff;
+    height: 200px;
+    width: 90%;
+}
+
+.heads {
+    background-color: #65615e;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.academic-content {
+    background-color: #fff;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.academic-content-left {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.academic-content-right {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.university {
+    background-color: #fff;
+    color: #65615e;
+    height: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.course {
+    background-color: #fff;
+    color: #65615e;
+    height: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.college p {
+    font-weight: 600;
+}
+
+.academic-inner-content p {
+    color: #65615e;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    display: none;
+}
+
+.career {
+    height: 200px;
+    width: 90%;
+}
+
+
+.foot {
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    height: 200px;
+    width: 90%;
+
+}
+
+.skills ul {
+    margin-top: 10px;
+    padding-left: 22px;
+}
+
+.project {
+    height: 100%;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.project-content {
+    padding-top: 20px;
+    height: 170px;
+    width: 100%;
+}
+
+.project-content li {
+    color: #65615e;
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.project-content p {
+    font-size: 14px;
+    font-weight: 400;
+}
